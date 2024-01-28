@@ -1,5 +1,1 @@
-"# TBC-X-USAID" 
-"# TBCXUSAID" 
-"# TBCXUSAID" 
-"# TBCXUSAID" 
-"# TBCXUSAID" 
+TBC აკადემიისთვის განკუთვნილი პროექტი
