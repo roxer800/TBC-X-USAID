@@ -1,0 +1,90 @@
+
+.fourth--section > p {
+    margin-left: 9%;
+    font-size: 24px;
+
+}
+.collapsable--wrapper{
+    width: 100%;
+    min-height: 300px;
+    background-color: rgb(18, 17, 17);
+    padding-bottom: 40px;
+}
+
+.collapsable--header{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 0;
+}
+.collapsable--header > button{
+    border: none;
+    background-color: transparent;
+    color: #00a3e0;
+    cursor: pointer;
+}
+.collapsable--header > button:hover{
+    color: #bbb;
+    transition: 0.4s;
+}
+.question--header{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    cursor: pointer;
+}
+.question--header > p{
+    font-size: 14px;
+    margin-right: -70px;
+
+}
+.question--header > button{
+    border: none;
+    background-color: transparent;
+    color: #bbb;
+    margin-bottom: 15px;
+}
+.first--question, .second--question, .third--question{
+    display: none;
+    opacity: 0;
+}
+
+.first--question--header >p{
+    padding-right: 5px;
+}
+.third--question--header >p{
+    padding-right: 75px;
+}
+.collapsable--body-first--section, .collapsable--body-third--section{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    width: 100%;
+    
+}
+.collapsable--body-first--section >p, .collapsable--body-third--section > p{
+    font-size: 10px;
+    max-width: 60vw;
+    text-align: left;
+    padding-bottom: 20px;
+    
+}
+.collapsable--body-second--section{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    width: 100%;
+    
+}
+.collapsable--body-second--section >p{
+    font-size: 10px;
+    max-width: 58vw;
+    text-align: left;
+    padding-bottom: 20px;
+}
+hr{
+    color: white;
+    max-width: 60vw;
+    text-align: center;
+    margin: auto auto 25px;
+}

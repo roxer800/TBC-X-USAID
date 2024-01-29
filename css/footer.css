@@ -1,0 +1,54 @@
+
+.footer{
+    padding: 100px 0px;
+    width: 100%;
+    height: 100px;
+    background-color:  rgb(28,28,28);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left--side{
+    padding-left: 25px;
+    font-size: 14px;
+    color: white;
+}
+.left--side > img{
+    width: 100px;
+    margin-bottom: 20px;
+}
+.left--side > button{
+    border: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    margin-left: -8px;
+}
+.right--side{
+    padding-right: 25px;
+    font-size: 16px;
+}
+.logos{
+    text-align: end;
+    margin-bottom: 35px;
+}
+.facebook--img{
+    width: 35px;
+    margin-right: 5px;
+}
+.youtube--img{
+    width: 35px;
+}
+.right--side > button{
+    border: none;
+    border-radius: 5px;
+    padding: 3px 15px;
+    color: white;
+    background-color: #00a3e0;
+}
+
+.right--side > button:hover{
+    color: black;
+    background-color: rgb(148, 148, 148);
+    transition: 0.4s;
+}

@@ -1,0 +1,86 @@
+.third--section{
+    background-color: black;
+}
+.third--section--header{
+    padding: 35px 0;
+}
+.third--section--header > h4{
+    color: white;
+    margin-left: 10%;
+}
+.row{
+    margin-left: 1%;
+    padding-bottom: 35px;
+}
+.cart{
+    width: 275px;
+    border: solid 0.5px #fff;
+    border-radius: 5px;    
+    height: 330px;
+    color: white;
+}
+.cart--image{
+    border-radius: 5px;
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+}
+.cart>h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.cart>h4{
+    font-size: 10px;
+    margin-left: 15px;
+}
+.cart--arrow--right{
+    margin-left: 15px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    width: 20px;
+    height: 20px;
+}
+.details{
+    display: flex;
+}
+.course--details{
+    margin-top: 65px;
+    margin-left: 15px;
+}
+.course--details>i{
+    font-size: 12px;
+    color: #00a3e0;
+    cursor: pointer;
+}
+.course--details :hover{
+    color: #027eac;
+    transition: 0.4s;
+}
+
+@media(max-width:768px){
+    .cart{
+        width: 220px;
+        border: solid 0.5px #fff;
+        border-radius: 5px;    
+        height: 300px;
+        color: white;
+    }
+    .cart>h3{
+        font-size: 14px;
+    }
+}
+
+
+@media(max-width:550px){
+    .cart{
+        width: 190px;
+        border: solid 0.5px #fff;
+        border-radius: 5px;    
+        height: 300px;
+        color: white;
+    }
+}
