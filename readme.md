@@ -25,6 +25,7 @@ questionheader(number).onclick - ი activeSlideIndexCollapsible -თან ე�
 
 3. ინსტრუქცია 
 გახსენით github ლინკი დააკლიკეთ მარჯვენა კუთხეში არსებულ code ღილაკს და მიუთითეთ სასურველი მეთოდი (1. download ZIP 2.open with GitHub Desktop)
+zip ფაილის გადმოწერის შემდეგ გახსენით visual studio აირჩიეთ ამოარქივებული ფოლდერი და გახსენით index.html live server-ის საშუალებით
 
 =======
 TBC აკადემიისთვის განკუთვნილი პროექტი
